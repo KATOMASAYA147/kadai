@@ -32,11 +32,3 @@ IMG = IMG0 + IMG1 + IMG2 + IMG3;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
 
-標準画像「篠栗九大の森と蒲田池」を原画像とする．この画像は縦6000画像，横4000画素による正方形のディジタルカラー画像である．
-
-ORG=imread('Lenna.png'); % 原画像の入力
-ORG = rgb2gray(ORG); colormap(gray); colorbar;
-imagesc(ORG); axis image; % 画像の表示
-
-によって，原画像を読み込み，白黒に画像を編集して表示した結果を図１に示す．
-![サンプル画像](課題２－１.jpg)
